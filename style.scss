@@ -7,7 +7,7 @@ body {
 }
 
 #main-doc {
-    font-size: 16px;
+    font-size: 15.5px;
 }
 
 #navbar {
@@ -48,13 +48,14 @@ body {
 
 section {
     margin: 35px 40px 35px 350px;
-    line-height: 1.5;
+    line-height: 1.8;
 
     code {
         font-size: 13px;
         background: #F7F7F7;
-        min-width: 100%;
+        max-width: 100%;
         padding: 15px;
+        margin: 7px 0px 7px 25px;
         display: block;
         border-radius: 4px;
     }
