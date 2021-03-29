@@ -12,12 +12,11 @@ body {
 
 #navbar {
     font-size: 17px;
-    width: 300px;
+    width: 310px;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    overflow: auto;
     border-right: 2px solid #696A6E;
 
     header {
@@ -28,6 +27,8 @@ body {
     ul {
         list-style-type: none;
         padding: 0;
+        height: 92.5%;
+        overflow: auto;
         margin: auto;
 
         li {
@@ -46,7 +47,7 @@ body {
 
 
 section {
-    margin: 35px 40px 35px 340px;
+    margin: 35px 40px 35px 350px;
     line-height: 1.5;
 
     code {
