@@ -50,6 +50,10 @@ section {
     margin: 35px 40px 35px 350px;
     line-height: 1.8;
 
+    p, ul {
+        margin-left: 10px;
+    }
+
     code {
         font-size: 13px;
         background: #F7F7F7;
@@ -67,6 +71,23 @@ h1 {
     font-weight: 500;
 }
 
-@media (max-width: 800px) {
-    
+@media (max-width: 810px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #navbar {
+        position: static;
+        width: 100%;
+        height: 250px;
+
+        ul {
+            border-top: 1px solid black;
+            border-bottom: 2px solid black;
+        }
+    }
+
+    section {
+        margin: 35px;
+    }
 }
