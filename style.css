@@ -1,1 +1,67 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  color: #696A6E;
+}
+
+#main-doc {
+  font-size: 16px;
+}
+
+#navbar {
+  font-size: 17px;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  border-right: 2px solid #696A6E;
+}
+
+#navbar header {
+  text-align: center;
+  margin: 10px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+}
+
+#navbar ul li {
+  height: 45px;
+  border-top: 1px solid black;
+}
+
+#navbar ul li .nav-link {
+  display: block;
+  padding: 14px 30px;
+  color: #696A6E;
+  text-decoration: none;
+}
+
+section {
+  margin: 35px 40px 35px 340px;
+  line-height: 1.5;
+}
+
+section code {
+  font-size: 13px;
+  background: #F7F7F7;
+  min-width: 100%;
+  padding: 15px;
+  display: block;
+  border-radius: 4px;
+}
+
+h1 {
+  color: black;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
